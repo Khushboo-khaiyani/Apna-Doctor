@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apna Doctor - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="left">
+      <img src="doctor.jpg" alt="Doctor" class="doctor-img" />
+      <p class="quote">
+        “Simply all the tools that my team and I need.” <br />
+        <span>— Dr. Anya Sharma, Lead Physician</span>
+      </p>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+      <div class="login-card">
+        <h2>Welcome to <span>Apna Doctor</span></h2>
+
+        <form action="/login" method="POST">
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="password" name="password" placeholder="Password" required />
+
+          <div class="form-links">
+            <a href="#" class="forgot">Forgot password?</a>
+          </div>
+
+          <button type="submit" class="btn">Login</button>
+
+          <div class="divider">OR</div>
+
+          <button type="button" class="google-btn">
+            <img src="https://www.svgrepo.com/show/355037/google.svg" alt="Google" />
+            Continue with Google
+          </button>
+        </form>
+
+        <p class="signup-text">
+          Don’t have an account? <a href="/signup">Sign up</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
